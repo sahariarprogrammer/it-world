@@ -1,0 +1,160 @@
+.container{
+    height: 92.9vh;
+      margin-top: -20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 3.8rem;
+      margin-right: 3.8rem;
+  }
+
+  .container-different{
+    height: 95.5vh;
+      margin-top: -20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #18354C;
+      width: 100%;
+      padding-top: 15px;
+  }
+  
+  .container-inside{
+  
+  }
+  
+  .left-side{
+      width: 50%;
+      float: left;
+      margin-top: 3rem;
+  
+  }
+
+  .left-side-right{
+    width: 50%;
+    float: right;
+    
+  }
+
+  .left-side-right h1{
+    color: rgba(245, 238, 238, 0.459);
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-right: 1.7rem;
+  }
+  .left-side-right p{
+    color: rgba(245, 238, 238, 0.459);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+    margin-right: 3.8rem;
+  }
+
+
+
+  .left-side h1{
+    color: #18354C;
+      font-size: 2.3rem;
+      margin-bottom: 1rem;
+  }
+
+  
+  .left-side p{
+      color: gray;
+      font-size: 1.3rem;
+   
+      margin-bottom: 1rem;
+      text-align: justify;
+  }
+  
+  .right-side{
+      width: 50%;
+      float: right;
+  }
+
+  .right-side-left{
+    width: 37.2%;
+    float: left;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0.89rem;
+    margin-top: 2rem;
+  
+}
+
+.buttonposition-reverse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+  .img{
+      width: 450px;
+      height: 350px;
+      float: right;
+      border-radius: 5px;
+  }
+  
+  @media screen and (max-width:960px){
+      .left-side{
+          width: 100%;
+          margin-left: 20px;
+          margin-right: 20px;
+          margin-bottom: 30px;
+          text-align: center;
+          justify-content: center;
+      
+      }
+      .container{
+          height: auto;
+          margin-top: -20px;
+          margin-bottom: 40px;
+      }
+      .container-different{
+        height: auto;
+      padding-left: 2rem;
+    }
+  
+      .right-side{
+          width: 100%;
+    
+      }
+      .right-side img{
+          width: 80%;
+          margin: 0 10%;
+          text-align: center;
+          justify-content: center;
+          border-radius: 5px;
+          height: auto;
+      }
+
+      .left-side-right{
+        width: 100%;
+      }
+
+      .left-side-right img{
+        width: 80%;
+       
+        text-align: center;
+        justify-content: center;
+        border-radius: 5px;
+        height: auto;
+    }
+    .right-side-left{
+      width: 100%;
+      margin-top: 2rem;
+      padding-bottom: 20px;
+  }
+
+  .right-side-left img{
+   
+    width: 68.6%;
+    margin-left: 9.6%;
+    margin-right: 21.5%;
+    height: auto;
+  
+}
+
+  }

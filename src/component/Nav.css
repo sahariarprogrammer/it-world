@@ -1,0 +1,132 @@
+.navigation-bar{
+    background-color: #18354C;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+  
+}
+
+.navigation-bar-container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:white
+}
+
+.navbar-logo{
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo-icon{
+  border-radius: 50%;
+    margin: 0 0.5rem;
+    padding: 0.2rem;
+    background-color: #fff;
+
+}
+
+.menubar-icon{
+    color: #fff;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.menu-items{
+    display: flex;
+    color: #fff;
+}
+
+.menu-items li{
+list-style: none;
+
+}
+
+.menu-items-name{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 0 1rem;
+ transition: all 0.3s ease;
+}
+
+.menu-items-name:hover{
+    color: gray;
+    font-size: 1.3rem; 
+}
+
+@media screen and (max-width:960px){
+    .menubar-icon{
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 60px;
+      
+       
+    }
+    
+    .navigation-bar{
+        position: relative;
+    }
+
+    .menu-items{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 0.3rem 0;
+        position: absolute;
+        width: 100%;
+        height: 30vh;
+        top: 80px;
+        left: -100%;
+        
+    }
+
+    .menu-items-name{
+        font-size: 1.7rem;
+    }
+    .menu-items-name:hover{
+        font-size: 1.7rem;
+        color: yellow;
+        border-bottom: 2px solid #fff;
+    }
+
+    .menu-items.active{
+        position: absolute;
+        top: 61px;
+        left: 0;
+        background-color: royalblue;
+        transition: all 0.3s ease-out;
+      
+       
+        /*need to check well*/
+    }
+
+    /*following one most important part for mobile that covers the full screen having
+    the navigation bar only, in another words when mobile screen appears ful navigation bar 
+    gets fixed, so the other pages we can not see, only we can see when click the particular page
+     */
+    .navigation-bar{
+        position: sticky;
+        margin-top: -10px;
+    }
+
+    #nav-down-space{
+        margin-bottom: 35vh;
+    }
+}

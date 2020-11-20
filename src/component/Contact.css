@@ -1,0 +1,41 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-page h1{
+    text-align: center;
+    font-size: 2.3rem;
+    color: #18354C;
+}
+
+.contact-form{
+   
+    
+}
+
+.forminfo{
+    width: 35vw;
+    height: 6vh;
+    margin: 1rem 0;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    
+}
+
+.formmsg{
+    width: 35vw;
+    height: 30vh;
+    margin: 1rem 0;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+.contact-button{
+    text-align: center;
+}
